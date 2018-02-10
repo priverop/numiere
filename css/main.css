@@ -1,22 +1,37 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   INDEX
    ========================================================================== */
 
+/* == LAYOUT == */
 
+.sidebar{
+  position: fixed;
+  padding-top: 150px;
+}
 
+/* Logo */
+.sidebar .logo img{
+  max-width: 300px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Redes */
+.sidebar .redes{
+  margin-top: 10px;
+}
+.sidebar .redes a{
+  margin-left: 5px;
+  color: grey;
+}
+.sidebar .redes a:hover{
+  color: #7D0A0A;
+}
+/* Gallery */
+.grid{
+  float:right;
+}
+.grid-sizer,
+.grid-item {
+  width: 320px;
+}

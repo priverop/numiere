@@ -4,10 +4,14 @@ $(document).ready(function(){
 
   // initialize Masonry after all images have loaded
   $container.imagesLoaded( function() {
-      $container.masonry({
+      var $grid = $container.masonry({
       // options
       itemSelector: '.grid-item',
-      columnWidth: 300
+      columnWidth: '.grid-sizer',
+      isFitWidth: true,
+      stagger: 30,
+      visibleStyle: { transform: 'translateY(0)', opacity: 1 },
+      hiddenStyle: { transform: 'translateY(100px)', opacity: 0 }
     });
   });
 

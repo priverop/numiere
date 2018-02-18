@@ -41,9 +41,19 @@
 
 /* Gallery */
 .grid{
-  float:right;
+  margin: 0 auto;
 }
 .grid-sizer,
 .grid-item {
   width: 320px;
+}
+
+/* Media querys */
+@media (max-width: 576px) {
+  .sidebar, .description{
+    position: static;
+  }
+  .sidebar{
+    padding: 20px 0;
+  }
 }

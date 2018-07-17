@@ -58,13 +58,10 @@ h2{
   border: 0px;
   left: -10px !important;
 }
-.sidebar .menu{
-  margin-top: 20px;
-}
+
 .sidebar .menu a{
   display: block;
   color: inherit;
-  margin-bottom: 20px;
 }
 
 /* Descripción */
@@ -96,4 +93,13 @@ h2{
   .sidebar{
     padding: 20px 0;
   }
+}
+
+
+/* ==========================================================================
+   EVENTOS
+   ========================================================================== */
+
+.carousel img{
+  height: 600px;
 }

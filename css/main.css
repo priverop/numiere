@@ -1,3 +1,7 @@
+@font-face{
+  font-family: orator;
+  src: url(fonts/oratorStd.otf);
+}
 
 
 /* ==========================================================================
@@ -25,6 +29,37 @@
 }
 .sidebar .redes a:hover{
   color: #7D0A0A;
+}
+
+/* Menu */
+.sidebar .categorias, .sidebar .menu, .sidebar .categorias .dropdown-menu{
+  text-transform: uppercase;
+  color: rgb(150, 150, 150);
+  letter-spacing: 3px;
+  font-size: .8em;
+}
+.sidebar .categorias .dropdown-toggle{
+  cursor: pointer;
+  padding: 5px;
+}
+.sidebar .categorias .dropdown-toggle:hover{
+  text-decoration: underline;
+}
+.sidebar .categorias .dropdown-toggle::after{
+  content: "";
+  display: none;
+}
+.sidebar .categorias .dropdown-menu{
+  border: 0px;
+  left: -10px !important;
+}
+.sidebar .menu{
+  margin-top: 20px;
+}
+.sidebar .menu a{
+  display: block;
+  color: inherit;
+  margin-bottom: 20px;
 }
 
 /* Descripción */

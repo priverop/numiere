@@ -1,8 +1,13 @@
-@font-face{
-  font-family: orator;
-  src: url(fonts/oratorStd.otf);
+body,h2{
+  font-family: Helvetica;
+  font-weight: lighter;
 }
 
+h2{
+  text-transform: uppercase;
+  color: rgb(100, 100, 100);
+  letter-spacing: 15px;
+}
 
 /* ==========================================================================
    INDEX
